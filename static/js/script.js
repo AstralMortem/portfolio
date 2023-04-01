@@ -31,6 +31,13 @@ $(document).ready(function() {
     });
   });
 
+  $(document).ready(function() {
+    $('.qualification-button').click(function() {
+      $('.qualification-button').not(this).removeClass('is-active');
+      $(this).toggleClass('is-active');
+    });
+  });
+
 document.addEventListener('DOMContentLoaded', () => {
   // Functions to open and close a modal
   function openModal($el) {

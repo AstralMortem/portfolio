@@ -21,6 +21,16 @@ body {
 
 .qualification-button{
     justify-content: space-between;
+
+}
+
+.qualification-button:hover{
+    color: hsl(171, 100%, 41%);
+
+}
+
+.qualification-button.is-active{
+    color: hsl(171, 100%, 41%);
 }
 
 .progress {
