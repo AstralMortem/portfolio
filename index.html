@@ -1,0 +1,642 @@
+<html lang="en" class="has-navbar-fixed-top">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="static/css/style.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar has-shadow is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="#home" class="navbar-item">Vlad</a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarButtons">
+                    <span class="icon">
+                        <i class="uil uil-apps"></i>
+                    </span>
+                </a>
+
+            </div>
+
+            <div id="navbarButtons" class="navbar-menu">
+
+                <div class="navbar-end">
+                    <a href="#home" class="navbar-item">
+                        <i class="uil uil-estate"></i> Home
+                    </a>
+                    <a href="#about" class="navbar-item">
+                        <i class="uil uil-user"></i> About
+                    </a>
+
+                    <a href="#skills" class="navbar-item">
+                        <i class="uil uil-file-info-alt"></i> Skills
+                    </a>
+
+                    <a href="#services" class="navbar-item">
+                        <i class="uil uil-suitcase"></i> Services
+                    </a>
+
+                    <a href="#portfolio" class="navbar-item">
+                        <i class="uil uil-image"></i> Portfolio
+                    </a>
+                    <a href="#contacts" class="navbar-item">
+                        <i class="uil uil-message"></i> Contactme
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <main class="main">
+        <section class="hero is-fullheight-with-navbar" id="home">
+            <div class="hero-body container">
+                <div class="columns is-vcentered ">
+                    <div class="column has-text-centered ">
+                        <p class="title">Hi, I`m Vlad</p>
+                        <p class="subtitle">Python Full-stack developer</p>
+                        <div>
+                            <a href="https://www.instagram.com/mamkin_muzikant/">
+                                <span class="icon is-large"><i class="uil uil-instagram"></i></span>
+                            </a>
+                            <a href="https://linkedin.com/in/vladyslav-chaliuk-27652b17b">
+                                <span class="icon is-large"><i class="uil uil-linkedin-alt"></i></span>
+                            </a>
+                            <a href="https://github.com/AstralMortem">
+                                <span class="icon is-large"><i class="uil uil-github-alt"></i></span>
+                            </a>
+                        </div>
+                        <a href="#about" class="button is-rounded mt-6 has-text-info">
+                            <span class="icon-text">
+                                <span>Scroll down</span>
+                                <span class="icon is-large">
+                                    <i class="uil uil-mouse-alt"></i>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="column is-5">
+                        <figure class="image">
+                            <img class="is-rounded" src="static/img/me.png">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero is-fullheight-with-navbar" id="about">
+            <div class="hero-body container">
+                <div class="columns is-multiline is-vcentered">
+                    <div class="column is-full has-text-centered">
+                        <p class="title is-4">About Me</p>
+                        <p class="subtitle is-6">My introduction</p>
+                    </div>
+                    <div class="column is-5 ">
+                        <figure class="image is-square">
+                            <img class="is-half-rounded" src="static/img/me2.png">
+                        </figure>
+                    </div>
+                    <div class="column is-4 is-offset-1 has-text-centered">
+                        <p class="subtitle is-6 has-text-left">Python developer, with extensive knowledge and years
+                            of experience, I create quality web applications with Django and Flutter.
+                        </p>
+                        <div class="columns is-multiline has-text-centered">
+                            <div class="column">
+                                <p class="title is-4">4+</p>
+                                <p class="subtitle is-6">Years of experience</p>
+                            </div>
+                            <div class="column">
+                                <p class="title is-4">2+</p>
+                                <p class="subtitle is-6">Computed projects</p>
+                            </div>
+                            <div class="column">
+                                <p class="title is-4">12+</p>
+                                <p class="subtitle is-6">Satisfied customers</p>
+                            </div>
+                        </div>
+
+                        <a class="button is-primary p-5" href="static/pds/csv.pdf" download>
+                            <span class="text-icon">
+                                <span>Download CV</span>
+                                <span class="icon">
+                                    <i class="uil uil-download-alt"></i>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="hero is-fullheight-with-navbar" id="skills">
+            <div class="hero-body container">
+                <div class="columns is-multiline">
+                    <div class="column is-full has-text-centered">
+                        <p class="title is-4">My Skills</p>
+                        <p class="subtitle is-6">My technical level</p>
+                    </div>
+                    <div class="column">
+                        <div class="dropdown card is-clickable p-3">
+                            <div class="dropdown-trigger is-flex" aria-controls="skill-menu-1">
+                                <span class="icon is-large">
+                                    <i class="uil uil-brackets-curly"></i>
+                                </span>
+                                <div>
+                                    <p class="title is-5 is-primary">Frontend</p>
+                                    <p class="subtitle is-6">More than 2 years</p>
+                                </div>
+                                <span class="icon is-large">
+                                    <i class="uil uil-angle-down"></i>
+                                </span>
+                            </div>
+                            <div class="dropdown-menu" id="skill-menu-1" role="menu">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>HTML</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="90" max="100"></progress>
+                                        </p>
+                                    </div>
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>CSS</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="75" max="100"></progress>
+                                        </p>
+                                    </div>
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>JavaScript</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="60" max="100"></progress>
+                                        </p>
+                                    </div>
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>HTMX</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="90" max="100"></progress>
+                                        </p>
+                                    </div>
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>Flutter/Dart</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="40" max="100"></progress>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="dropdown card is-clickable p-3">
+                            <div class="dropdown-trigger is-flex" aria-controls="skill-menu-2">
+                                <span class="icon is-large">
+                                    <i class="uil uil-server"></i>
+                                </span>
+                                <div>
+                                    <p class="title is-5 is-primary">Backend</p>
+                                    <p class="subtitle is-6">More than 2 years</p>
+                                </div>
+                                <span class="icon is-large">
+                                    <i class="uil uil-angle-down"></i>
+                                </span>
+                            </div>
+                            <div class="dropdown-menu" id="skill-menu-2" role="menu">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>Python</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="95" max="100"></progress>
+                                        </p>
+                                    </div>
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>Django</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="80" max="100"></progress>
+                                        </p>
+                                    </div>
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>PostgreSQL</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="80" max="100"></progress>
+                                        </p>
+                                    </div>
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>AWS</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="55" max="100"></progress>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="dropdown card is-clickable p-3">
+                            <div class="dropdown-trigger is-flex" aria-controls="skill-menu-3">
+                                <span class="icon is-large">
+                                    <i class="uil uil-brackets-curly"></i>
+                                </span>
+                                <div>
+                                    <p class="title is-5 is-primary">Additional Skill</p>
+                                    <p class="subtitle is-6">More than 2 years</p>
+                                </div>
+                                <span class="icon is-large">
+                                    <i class="uil uil-angle-down"></i>
+                                </span>
+                            </div>
+                            <div class="dropdown-menu" id="skill-menu-3" role="menu">
+                                <div class="dropdown-content">
+
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>C/C++(University)</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="70" max="100"></progress>
+                                        </p>
+                                    </div>
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>C#(University)</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="70" max="100"></progress>
+                                        </p>
+                                    </div>
+                                    <div class="dropdown-item skill-item">
+                                        <p>
+                                            <strong>TensorFlow</strong>
+                                            <br>
+                                            <progress class="progress is-primary" value="30" max="100"></progress>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero is-medium" id="education">
+            <div class="hero-body container">
+                <div class="columns is-multiline">
+                    <div class="column is-full has-text-centered">
+                        <p class="title is-4">Qualification</p>
+                        <p class="subtitle is-6">My personal journey</p>
+                    </div>
+                    <div class="column is-full has-text-centered">
+                        <a class="qualification-button" data-target="education-road">
+                            <span class="icon-text">
+                                <span class="icon is-large">
+                                    <i class="uil uil-graduation-cap"></i>
+                                </span>
+                                <span class="icon is-large ml-4">Education</span>
+
+                            </span>
+                        </a>
+                        <a class="qualification-button ml-5" data-target="work-road">
+                            <span class="icon-text">
+                                <span class="icon is-large">
+                                    <i class="uil uil-bag"></i>
+                                </span>
+                                <span class="icon is-large ">Work</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="columns is-multiline is-justify-content-center " id="education-road">
+                    <div class="column is-1">
+                        <ul class="bar">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <div class="columns is-multiline has-text-left">
+                            <div class="column is-full ">
+                                <p class="title is-5">School(Ended with golden medal)</p>
+                                <p class="subtitle is-6">Morozivka - Ukraine</p>
+                                <p class="subtitle is-7">2009-2021</p>
+                            </div>
+                            <div class="column is-full">
+                                <p class="title is-5">Computer Science</p>
+                                <p class="subtitle is-6">NULES - Ukraine</p>
+                                <p class="subtitle is-7">2021-2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns is-multiline is-justify-content-center is-hidden" id="work-road">
+                    
+                    <div class="column">
+                        <div class="columns is-multiline has-text-right">
+                            <div class="column is-full ">
+                                <p class="title is-5">WaveMarket</p>
+                                <p class="subtitle is-6">Freelance</p>
+                                <p class="subtitle is-7">2023</p>
+                            </div>
+                            <div class="column is-full">
+                                <p class="title is-5">POS System</p>
+                                <p class="subtitle is-6">Sobolek Ltd.</p>
+                                <p class="subtitle is-7">2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-1">
+                        <ul class="bar">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="hero is-fullheight-with-navbar" id="services">
+            <div class="hero-body container">
+                <div class="columns is-multiline has-text-centered">
+                    <div class="column is-full has-text-centered">
+                        <p class="title is-4">Services</p>
+                        <p class="subtitle is-6">What i offer</p>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="icon is-large mt-4 mb-4">
+                                    <i class="uil uil-window-grid"></i>
+                                </span>
+
+                                <p class="title is-4">Web</p>
+                                <a class="is-primary service-button" data-target="services-modal-1">View More -></a>
+                            </div>
+                        </div>
+                        <div id="services-modal-1" class="modal">
+                            <div class="modal-background"></div>
+                            <div class="modal-card">
+                                <header class="modal-card-head">
+                                    <p class="modal-card-title">Web developing</p>
+                                    <button class="delete" aria-label="close"></button>
+                                </header>
+                                <section class="modal-card-body content">
+                                    <ul>
+                                        <li>
+                                            <p class="subtitle is-5">Web app development on Django/HTMX</p>
+                                        </li>
+                                        <li>
+                                            <p class="subtitle is-5">Development user interface on Flutter/Dart</p>
+                                        </li>
+                                        <li>
+                                            <p class="subtitle is-5">Development user interface on Python/PySide</p>
+                                        </li>
+
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="icon is-large mt-4 mb-4">
+                                    <i class="uil uil-server"></i>
+                                </span>
+
+                                <p class="title is-4">Backend</p>
+                                <a class="is-primary service-button" data-target="services-modal-2">View More -></a>
+                            </div>
+                        </div>
+                        <div id="services-modal-2" class="modal">
+                            <div class="modal-background"></div>
+                            <div class="modal-card">
+                                <header class="modal-card-head">
+                                    <p class="modal-card-title">Backend Development</p>
+                                    <button class="delete" aria-label="close"></button>
+                                </header>
+                                <section class="modal-card-body content">
+                                    <ul>
+                                        <li>
+                                            <p class="subtitle is-5">Backend development on Django REST</p>
+                                        </li>
+                                        <li>
+                                            <p class="subtitle is-5">Development Telegram bots with Aiogram/Python</p>
+                                        </li>
+                                        <li>
+                                            <p class="subtitle is-5">Setup server on Linux(Apache, Nginx)</p>
+                                        </li>
+                                        <li>
+                                            <p class="subtitle is-5">Hosting Site/App on cloud(Heroku, Render)</p>
+                                        </li>
+                                        <li>
+                                            <p class="subtitle is-5">Managing with AWS S3</p>
+                                        </li>
+
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero is-fullheight-with-navbar" id="portfolio">
+            <div class="hero-body container">
+                <div class="columns is-multiline is-vcentered">
+                    <div class="column is-full has-text-centered">
+                        <p class="title is-4">My Projects</p>
+                        <p class="subtitle is-6">What I created</p>
+                    </div>
+
+                    <div class="column">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card is-shadowless">
+                                        <div class="card-content">
+                                            <div class="columns is-multiline is-vcentered">
+                                                <div class="column ">
+                                                    <figure class="image portfolio-image">
+                                                        <img src="static/img/portfolio1.png">
+                                                    </figure>
+                                                </div>
+                                                <div class="column is-4 has-text-centered">
+                                                    <p class="title is-5 has-text-left">WaveMarket Shop</p>
+                                                    <p class="subtitle is-6 has-text-left">Responsive store which
+                                                        salling sample packs
+                                                        and other stuff for beatmakers</p>
+                                                    <a href="https://wavemarket.onrender.com"
+                                                        class="button is-primary">Open</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero is-fullheight-with-navbar" id="contacts">
+            <div class="hero-body container">
+                <div class="columns is-multiline">
+                    <div class="column is-full has-text-centered">
+                        <p class="title is-4">Contact Me</p>
+                    </div>
+                    <div class="column is-4">
+                        <div class="columns is-multiline">
+                            <div class="column is-full is-flex">
+                                <span class="icon is-large">
+                                    <i class="uil uil-envelope-alt"></i>
+                                </span>
+                                <div class="ml-4">
+                                    <p class="title is-5">Email</p>
+                                    <p class="subtitle is-6">vladchaluk@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="column is-full is-flex">
+                                <span class="icon is-large">
+                                    <i class="uil uil-phone-alt"></i>
+                                </span>
+                                <div class="ml-4">
+                                    <p class="title is-5">Telegram</p>
+                                    <p class="subtitle is-6">@AstralMortem</p>
+                                </div>
+                            </div>
+                            <div class="column is-full is-flex">
+                                <span class="icon is-large">
+                                    <i class="uil uil-location-point"></i>
+                                </span>
+                                <div class="ml-4">
+                                    <p class="title is-5">Location</p>
+                                    <p class="subtitle is-6">Kyiv, Ukraine</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <form >
+                            <div class="field is-horizontal">
+                                <div class="field-body">
+                                    <div class="field">
+                                        <label class="label">Name</label>
+                                        <div class="control">
+                                            <input class="input" type="text" name="name" placeholder="Text input" required>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label">Email</label>
+                                        <div class="control">
+                                            <input class="input" type="text" name="email" placeholder="Text input" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">Project</label>
+                                <div class="control">
+                                    <input class="input" type="text" name="subject" placeholder="Text input" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">Message</label>
+                                <div class="control">
+                                    <textarea class="textarea" name="message"placeholder="Textarea"></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="button is-primary p-5">
+                                <span class="text-icon">
+                                    <span>Send</span>
+                                    <span class="icon">
+                                        <i class="uil uil-message"></i>
+                                    </span>
+                                </span>
+                            </button>
+                        </form>
+
+                        <script src="https://smtpjs.com/v3/smtp.js"></script>
+                        <script>
+                            function sendEmail(){
+                                Email.send({
+                                    Host: ""
+                                }).then(message=>alert(message));
+                            }
+                        </script>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer has-background-primary">
+        <div class="container">
+            <div class="columns is-multiline  ">
+                <div class="column ">
+                    <p class="title is-5 has-text-white">Vladyslav Chaliuk</p>
+                    <p class="subtitle is-5 has-text-white">Python developer</p>
+                </div>
+                <div class="column is-flex is-justify-content-space-around">
+                    <a href="#portfolio" class="has-text-white ">Portfolio</a>
+                    <a href="#services" class="has-text-white ">Services</a>
+                    <a href="#contacts" class="has-text-white">Contact Me</a>
+
+                </div>
+                <div class="column">
+                    <a href="https://www.instagram.com/mamkin_muzikant/">
+                        <span class="icon is-large"><i class="uil uil-instagram has-text-white"></i></span>
+                    </a>
+                    <a href="https://linkedin.com/in/vladyslav-chaliuk-27652b17b">
+                        <span class="icon is-large"><i class="uil uil-linkedin-alt has-text-white"></i></span>
+                    </a>
+                    <a href="https://github.com/AstralMortem">
+                        <span class="icon is-large"><i class="uil uil-github-alt has-text-white"></i></span>
+                    </a>
+                </div>
+                <div class="column is-full has-text-centered">
+                    <p>@All right reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scrollToTop button is-rounded is-primary" title="Go to top">
+        <span class="icon is-large">
+            <i class="uil uil-angle-up"></i>
+        </span>
+    </button>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

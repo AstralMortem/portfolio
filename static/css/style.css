@@ -1,0 +1,159 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Bulma */
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.icon.is-large i.uil{
+    font-size: 2rem;
+}
+
+.is-half-rounded{
+    border-radius: 10px;
+}
+
+.qualification-button{
+    justify-content: space-between;
+}
+
+.progress {
+    border: none;
+    border-radius: 290486px;
+    display: block;
+    height: 1rem;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.skill-item .progress{
+    height: 4px !important;
+}
+
+.dropdown-menu{
+    width: 100%;
+}
+
+.modal-card{
+    border-radius: 10px;
+}
+.modal-background {
+    background-color: rgba(10, 10, 10, 0.65);
+}
+.content ul li{
+    margin-top: 2rem;
+}
+
+.swiper {
+    width: 900px;
+    height: 400px;
+  }
+
+
+
+.portfolio-image img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 20px;
+    width: 480px;
+    height: 270px;
+}
+
+
+.scrollToTop{
+    text-align:center; 
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    right:35px;
+    bottom: 45px;
+    display:none;
+    z-index: 1000;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.grid a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid a:hover{
+    color: hsl(171, 100%, 41%);
+}
+
+
+.bar {
+    list-style: none;
+  }
+  .bar >li {
+    position: relative;
+  }
+  .bar>li:before {
+    content: '\25CF';
+    color: hsl(171, 100%, 41%);;
+    margin-right: 10px;
+    font-size: 40px;
+  }
+  .bar>li:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    border-left: 2px solid hsl(171, 100%, 41%);
+    margin-left: 10px;
+    height: 100%;
+  }
+  .bar >li:first-of-type:after {
+    top: 50%;
+  }
+  .bar >li:last-of-type:after {
+    top: -50%;
+  }
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .navbar .navbar-item i {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .swiper {
+        width: 300px;
+        height: 600px;
+      }
+
+
+    .navbar-menu.is-active {
+
+        position: absolute;
+        z-index: 10000;
+        bottom:54px;
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        transition: .3s;
+
+
+    }
+}
