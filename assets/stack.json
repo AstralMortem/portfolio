@@ -1,0 +1,21 @@
+[
+    {
+        "title": "FastAPI",
+        "description": "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints.",
+        "icon": "custom:fastapi",
+        "procent": 95,
+        "exp": 4,
+        "link": "https://fastapi.tiangolo.com/",
+        "category": "backend"
+    },
+    {
+        "title": "NuxtJS",
+        "description": "Nuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.",
+        "icon": "custom:nuxt",
+        "procent": 75,
+        "exp": 2,
+        "link": "https://nuxt.com/",
+        "category": "frontend"
+
+    }
+]
