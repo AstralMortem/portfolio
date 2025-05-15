@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen  bg-gray-50 scroll-smooth">
+  <div class="min-h-screen w-screen  bg-gray-50 scroll-smooth">
     <NavHeader :menu-items="menuItems"/>
     <main class="h-full w-full">
       <slot />

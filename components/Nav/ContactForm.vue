@@ -1,6 +1,6 @@
 <template>
   <UCard>
-    <UForm class="space-y-4" :state="formState" @submit.prevent="handleSubmit">
+    <UForm class="space-y-4" :schema="schema" :state="formState" @submit.prevent="handleSubmit">
       <UFormField label="Name" name="name">
         <UInput v-model="formState.name" placeholder="Your name" class="w-full"/>
       </UFormField>
@@ -20,6 +20,9 @@
 
 <script lang="ts" setup>
 import {  UButton, UFormField, UInput, UTextarea } from '#components';
+import type { FormSubmitEvent } from '@nuxt/ui';
+import { z } from 'zod';
+import emailjs from 'emailjs-com'
 
 const formState = ref({
   name: '',
@@ -28,12 +31,54 @@ const formState = ref({
   message: ''
 });
 
-const loading = ref(false);
+const reset = () => {
+  formState.value = {
+    name: '',
+  email: '',
+  subject: '',
+  message: ''
+  }
+}
 
+
+const schema = z.object({
+  name: z.string(),
+  email: z.string().email(),
+  subject: z.string(),
+  message: z.string()
+})
+
+type Schema = z.output<typeof schema>
+
+const loading = ref(false);
+const toast = useToast()
 // Form submission handler
-const handleSubmit = async () => {
+const handleSubmit = async (e: FormSubmitEvent<Schema>) => {
   loading.value = true;
-  
+  const templateParams = {
+    name: e.data.name,
+    email: e.data.email,
+    message: e.data.message,
+    subject: e.data.subject,
+    time: new Date().toDateString()
+  }
+
+  emailjs.send('service_o6f13b7', 'template_xcxwewp', templateParams, 'vhhNnjQDO2_12TsYC')
+  .then(() => {
+    toast.add({
+      title: "Successfuly send",
+      description: "Thank for your message",
+      color: 'success'
+    })
+    reset()
+  })
+  .catch((error) => {
+    toast.add({
+      title: "Error",
+      description: error.message || '',
+      color: 'error'
+    })
+  })
   loading.value = false
 };
 </script>

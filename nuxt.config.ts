@@ -1,4 +1,3 @@
-import tailwindcss from "@tailwindcss/vite";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -18,8 +17,26 @@ export default defineNuxtConfig({
   icon:{
     provider: 'server',
     customCollections: [{
-      prefix: 'custom',
+      prefix: 'portfolio',
       dir: './assets/icons'
     }]
-  }
+  },
+
+  content: {
+    build:{
+      markdown:{
+        toc:{
+          depth: 3
+        },
+        highlight:{
+          theme: {
+            // Default theme (same as single string)
+            default: 'github-light',
+            // Theme used if `html.dark`
+            dark: 'github-dark',
+          }
+        }
+      }
+    }
+  },
 })

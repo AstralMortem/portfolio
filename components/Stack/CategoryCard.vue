@@ -2,11 +2,11 @@
   <UCard>
     <div class="flex items-center mb-4">
       <div class="bg-primary bg-opacity-10 text-white p-3 rounded-lg mr-4 flex items-center justify-center">
-        <Icon :name="$props.icon" size="1em"/>
+        <UIcon :name="$props.icon" size="1em"/>
       </div>
       <h3 class="text-xl font-bold text-secondary-dark">{{ $props.title }}</h3>
     </div>
-    <div class="grid-cols-2">
+    <div class="lg:grid-cols-3 md:grid-cols-2 gap-2 grid">
       <StackInfo v-for="stack in getStacksByCategory($props.category)" :key="stack.title" :stack="stack"/>
     </div>
   </UCard>

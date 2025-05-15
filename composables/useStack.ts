@@ -7,6 +7,7 @@ export const useStack = () => {
 
   const findStack = (title: string) => {
     return stack.value.find(s => s.title.toLowerCase() === title.toLowerCase())
+    
   }
 
   const getStacksByCategory = (category: string) => {

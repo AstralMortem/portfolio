@@ -5,5 +5,5 @@ export interface Stack {
     procent: number
     exp: number
     link: string | null
-    category: 'backend' | 'frontend' | 'other'
+    category: 'backend' | 'frontend' | 'database' | 'ci/cd' | 'other'
 }

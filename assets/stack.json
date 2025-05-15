@@ -2,20 +2,236 @@
     {
         "title": "FastAPI",
         "description": "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints.",
-        "icon": "custom:fastapi",
+        "icon": "portfolio:fastapi",
         "procent": 95,
         "exp": 4,
         "link": "https://fastapi.tiangolo.com/",
         "category": "backend"
     },
     {
-        "title": "NuxtJS",
-        "description": "Nuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.",
-        "icon": "custom:nuxt",
+        "title": "SQLAlchemy",
+        "description": "SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.",
+        "icon": "portfolio:sqlalchemy",
+        "procent":80,
+        "exp":4,
+        "link": "https://www.sqlalchemy.org/",
+        "category": "backend"
+    },
+    {
+        "title": "Pydantic",
+        "description": "Pydantic is the most widely used data validation library for Python.",
+        "icon": "portfolio:pydantic",
+        "procent":75,
+        "exp":3,
+        "link": "https://docs.pydantic.dev/latest/",
+        "category": "backend"
+    },
+    {
+        "title": "Python",
+        "description": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically type-checked and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a batteries included language due to its comprehensive standard library",
+        "icon": "portfolio:python",
+        "procent": 99,
+        "exp": 6,
+        "link": "https://www.python.org/",
+        "category": "backend"
+    },
+    {
+        "title": "Django",
+        "description": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.",
+        "icon": "portfolio:django",
+        "procent": 85,
+        "exp": 6,
+        "link": "https://www.djangoproject.com/",
+        "category": "backend"
+    },
+    {
+        "title": "DRF",
+        "description": "Django REST framework is a powerful and flexible toolkit for building Web APIs on top of Django",
+        "icon": "portfolio:drf",
+        "procent": 80,
+        "exp": 4,
+        "link": "https://www.django-rest-framework.org/",
+        "category": "backend"
+    },
+    {
+        "title": "Celery",
+        "description": "Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages, while providing operations with the tools required to maintain such a system.",
+        "icon": "portfolio:celery",
+        "procent": 70,
+        "exp": 2,
+        "link": "https://docs.celeryq.dev/en/stable/",
+        "category": "backend"
+    },
+    {
+        "title": "Supabase",
+        "description": "Supabase is an open source Firebase alternative.",
+        "icon": "portfolio:supabase",
+        "procent": 90,
+        "exp": 2,
+        "link": "https://supabase.com/",
+        "category": "backend"
+    },
+    {
+        "title": "Aiogram",
+        "description": "A modern and fully asynchronous framework for Telegram Bot API written in Python using asyncio and aiohttp.",
+        "icon": "portfolio:aiogram",
         "procent": 75,
         "exp": 2,
+        "link": "https://aiogram.dev/",
+        "category": "backend"
+    },
+    
+
+
+
+
+    {
+        "title": "NuxtJS",
+        "description": "Nuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.",
+        "icon": "portfolio:nuxt",
+        "procent": 75,
+        "exp": 3,
         "link": "https://nuxt.com/",
         "category": "frontend"
+    },
+    {
+        "title": "Vue.js",
+        "description": "Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You and is maintained by him and the rest of the active core team members",
+        "icon": "portfolio:vue",
+        "procent": 75,
+        "exp":4,
+        "link": "https://vuejs.org/",
+        "category": "frontend"
+    },
+    {
+        "title": "TailwindCSS",
+        "description": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+        "icon": "portfolio:tailwindcss",
+        "procent": 80,
+        "exp": 4,
+        "link": "https://tailwindcss.com/",
+        "category": "frontend"
+    },
+    {
+        "title": "HTML",
+        "description": "HTML5 (Hypertext Markup Language 5) is a markup language used for structuring and presenting hypertext documents on the World Wide Web. It was the fifth and final major HTML version that is now a retired World Wide Web Consortium (W3C) recommendation.",
+        "icon": "portfolio:html",
+        "procent": 90,
+        "exp": 6,
+        "link": "https://www.w3.org/standards/history/html52/",
+        "category": "frontend"
+    },
+    {
+        "title": "CSS",
+        "description": "Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
+        "icon": "portfolio:css",
+        "procent": 70,
+        "exp": 4,
+        "link": "https://www.w3.org/TR/css/#css",
+        "category": "frontend"
+    },
+    {
+        "title": "JavaScript",
+        "description": "JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. Ninety-nine percent of websites use JavaScript on the client side for webpage behavior.",
+        "icon": "portfolio:js",
+        "procent":70,
+        "exp": 5,
+        "link": "https://ecma-international.org/technical-committees/tc39/?tab=published-standards",
+        "category": "frontend"
+    },
+    {
+        "title": "TypeScript",
+        "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+        "icon": "portfolio:ts",
+        "procent": 80,
+        "exp": 4,
+        "link": "https://www.typescriptlang.org/",
+        "category": "frontend"
+    },
+    {
+        "title": "Tauri",
+        "description": " Tauri is a framework for building tiny, fast binaries for all major desktop and mobile platforms.",
+        "icon": "portfolio:tauri",
+        "procent": 50,
+        "exp": 1,
+        "link": "https://v2.tauri.app/",
+        "category": "frontend"
+    },
 
+    {
+        "title": "PostgreSQL",
+        "description": "PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.",
+        "icon": "portfolio:postgresql",
+        "procent": 80,
+        "exp": 4,
+        "link": "https://www.postgresql.org/",
+        "category": "database"
+    },
+    {
+        "title": "MSSQLServer",
+        "description": "Microsoft SQL Server is a proprietary relational database management system developed by Microsoft using Structured Query Language (SQL).",
+        "icon": "portfolio:mssql",
+        "procent": 70,
+        "exp": 2,
+        "link": "https://www.microsoft.com/ru-ru/sql-server/sql-server-2019",
+        "category": "database"
+    },
+    {
+        "title": "SQLite",
+        "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
+        "icon": "portfolio:sqlite",
+        "procent": 80,
+        "link": "https://www.sqlite.org/",
+        "category": "database"
+    },
+
+    {
+        "title": "Docker",
+        "description": "Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. The service has both free and premium tiers. The software that hosts the containers is called Docker Engine.It was first released in 2013 and is developed by Docker, Inc.",
+        "icon": "portfolio:docker",
+        "procent": 80,
+        "exp": 4,
+        "link": "https://www.docker.com/",
+        "category": "ci/cd"
+    },
+    {
+        "title": "GitHub",
+        "description": "GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control and GitHub itself provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. Headquartered in California, GitHub, Inc. has been a subsidiary of Microsoft since 2018.",
+        "icon": "portfolio:github",
+        "procent": 80,
+        "exp": 6,
+        "link": "https://github.com/",
+        "category": "ci/cd"
+    },
+
+    {
+        "title": "GitHub Actions",
+        "description": "GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.",
+        "icon": "portfolio:actions",
+        "procent": 50,
+        "exp":3,
+        "link": "https://github.com/features/actions",
+        "category": "ci/cd"
+    },
+    {
+        "title": "AWS S3",
+        "description": "Amazon Simple Storage Service (S3) is a service offered by Amazon Web Services (AWS) that provides object storage through a web service interface",
+        "icon": "portfolio:s3",
+        "procent": 80,
+        "exp": 3,
+        "link": "https://aws.amazon.com/s3/",
+        "category": "ci/cd"
+    },
+
+    {
+        "title": "C++",
+        "description": "C++ is a high-level, general-purpose programming language created by Danish computer scientist Bjarne Stroustrup. ",
+        "icon": "portfolio:cpp",
+        "procent":30,
+        "exp": 1,
+        "link": "https://isocpp.org/",
+        "category": "other"
     }
+
+
 ]

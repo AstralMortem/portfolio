@@ -17,7 +17,7 @@
               <UButton to="/#contact" label="Get In Touch" variant="outline" size="xl"/>
             </div>
           </div>
-          <div class="md:w-1/2 " data-aos="fade-left">
+          <div class="md:w-1/2 hidden md:block" data-aos="fade-left">
             <img src="/images/hero-image.jpg" alt="Developer illustration" class="max-w-full h-auto clip-hero-image">
           </div>
         </div>
@@ -38,13 +38,13 @@
               I enjoy working on clean, maintainable code, designing intuitive user interfaces, and solving real-world problems with technology. Whether it's building RESTful APIs, integrating with modern databases, or crafting performant UIs, I bring a thoughtful, detail-oriented approach to every project.
             </p>
             <div class="mt-8">
-              <UIButton to="/resume.pdf" label="Download CV" class="w-fit">
+              <UButton to="/resume.pdf" label="Download CV" class="w-fit" size="xl" leading-icon="i-heroicons-document-arrow-down">
                 <template #leading-icon>
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </template>
-              </UIButton>
+              </UButton>
             </div>
           </div>
         </div>
@@ -53,6 +53,9 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <StackCategoryCard title="Frontend Development" category="frontend" icon="mdi:design" data-aos="fade-up" data-aos-delay="100" />
         <StackCategoryCard title="Backend Development" category="backend" icon="mdi:server" data-aos="fade-up" data-aos-delay="100" />
+        <StackCategoryCard title="Database" category="database" icon="mdi:database" data-aos="fade-up" data-aos-delay="100" />
+        <StackCategoryCard title="CI/CD" category="ci/cd" icon="mdi:test-tube" data-aos="fade-up" data-aos-delay="100" />
+        <StackCategoryCard title="Other" category="other" icon="mdi:dots-horizontal" data-aos="fade-up" data-aos-delay="100" />
       </div>
     </UISection>
     <UISection id="projects" title="My Projects">

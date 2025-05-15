@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed w-full bg-white dark:bg-neutral-800 shadow-md z-50 transition-all duration-300" :class="{ 'py-2': scrolled, 'py-4': !scrolled }">
+  <header class="fixed w-screen bg-white dark:bg-neutral-800 shadow-md z-50 transition-all duration-300" :class="{ 'py-2': scrolled, 'py-4': !scrolled }">
     <div class="container mx-auto px-4 flex justify-between items-center">
       <ULink to="/" class="text-2xl font-bold text-primary">
         <span class="text-neutral-600 dark:text-white">Chaliuk</span>Portfolio
@@ -18,7 +18,7 @@
       </nav>
 
       <!-- Mobile Navigation Button -->
-      <UButton icon="i-heroicons-list-bullet" variant="link" class="md:hidden" @click="mobileMenuOpen = !mobileMenuOpen" color="neutral" :ui="{leadingIcon:'text-2xl'}"/>
+      <UButton icon="i-heroicons-list-bullet" variant="link" class="md:hidden" color="neutral" :ui="{leadingIcon:'text-2xl'}" @click="mobileMenuOpen = !mobileMenuOpen"/>
       
     </div>
 
