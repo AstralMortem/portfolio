@@ -121,6 +121,9 @@
 <script lang="ts" setup>
 import { ProjectCarousel } from '#components';
 
+useHead({
+  title: "Vladyslav Chaliuk"
+})
 
 </script>
 

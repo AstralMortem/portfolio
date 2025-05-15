@@ -24,6 +24,11 @@ const computedStack = computed(()=> {
   return stack.filter(i => findStack(i)).map(i => findStack(i))
 })
 
+
+useSeoMeta({
+  title: project.title? `${project.title} | Vladyslav Chaliuk` : 'Vladyslav Chaliuk'
+})
+
 </script>
 
 <template>
