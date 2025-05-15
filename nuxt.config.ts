@@ -15,7 +15,6 @@ export default defineNuxtConfig({
   ],
   css: ['~/assets/css/main.css'],
   icon:{
-    provider: 'server',
     customCollections: [{
       prefix: 'portfolio',
       dir: './assets/icons'
