@@ -61,7 +61,7 @@ useSeoMeta({
       <div class="flex flex-col md:flex-row justify-between items-start gap-4">
         <div >
           <h2 class="text-2xl font-semibold mb-6 text-gray-900 dark:text-gray-200" data-aos="fade-right">Project Overview</h2>
-          <ContentRenderer v-if="project" :value="project" class="prose lg:prose-xl text-gray-900 dark:text-white prose-a:text-gray-900 prose-a:dark:text-white"  />
+          <ContentRenderer v-if="project" :value="project" class="prose lg:prose-xl text-gray-900 dark:text-white prose-a:text-gray-900 prose-a:dark:text-white  prose-strong:text-gray-900 prose-strong:dark:text-white prose-code:text-gray-900 prose-code:dark:text-white"  />
         </div>
         <div class="space-y-6 md:w-1/3 w-full" >
           <!-- Tech Stack -->

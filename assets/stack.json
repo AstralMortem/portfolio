@@ -231,6 +231,15 @@
         "exp": 1,
         "link": "https://isocpp.org/",
         "category": "other"
+    },
+    {
+        "title": "Rust",
+        "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. It is syntactically similar to C++, but is designed to provide better memory safety while maintaining performance.",
+        "icon": "portfolio:rust",
+        "procent": 20,
+        "exp": 1,
+        "link": "https://www.rust-lang.org/",
+        "category": "other"
     }
 
 
