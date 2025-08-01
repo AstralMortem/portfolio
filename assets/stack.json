@@ -80,6 +80,15 @@
         "link": "https://aiogram.dev/",
         "category": "backend"
     },
+    {
+        "title": "Redis",
+        "description": "Redis is an open source, in-memory data structure store used as a distributed in-memory database and message broker.",
+        "icon": "portfolio:redis",
+        "procent": 80,
+        "exp": 2,
+        "link": "https://redis.io/",
+        "category": "backend"
+    },
     
 
 

@@ -52,7 +52,7 @@ useSeoMeta({
       <img 
           :src="project?.meta.preview" 
           :alt="project?.title" 
-          class="w-full h-auto object-cover fill-gray-900"
+          class="w-fit h-fit object-cover fill-gray-900"
           data-aos="fade-left"
         >
     </UISection>
