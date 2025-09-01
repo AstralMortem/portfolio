@@ -5,6 +5,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
 
+  app:{
+    head:{
+      meta: [
+        {name: 'freelancehunt', content: '923fc7950bd31ad'}
+      ]
+    }
+  },
+
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
